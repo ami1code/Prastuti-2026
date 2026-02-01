@@ -26,7 +26,7 @@ export const EVENTS: Event[] = [
   {
     id: '3',
     title: 'Consilium',
-    category: 'Workshop',
+    category: 'Competition',
     description: 'Hands-on hardware implementation. It aims to introduce young minds to the world of electronic design, concepts and real world application.',
     date: 'March 21, 2026',
     time: '11:00 AM',
