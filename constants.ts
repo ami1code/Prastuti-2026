@@ -38,8 +38,8 @@ export const EVENTS: Event[] = [
     title: 'Student Alumni Interaction',
     category: 'Guest Lecture',
     description: 'Forever united by our alma mater, bound by memories, and connected by purpose.',
-    date: 'March 23, 2026',
-    time: '9:00 AM',
+    date: 'February 2, 2026',
+    time: '2:30 PM',
     image: '/assets/events/saic.webp',
     teamSize: 0
   },
@@ -48,8 +48,8 @@ export const EVENTS: Event[] = [
     title: 'Codigo - CP Workshop 1',
     category: 'Workshop',
     description: 'Brushing up the Basics',
-    date: 'TBD',
-    time: 'TBD',
+    date: 'February 2, 2026',
+    time: '6:30 PM',
     image: '/assets/events/codigo-workshop.webp',
     teamSize: 0
   },
