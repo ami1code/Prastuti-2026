@@ -10,7 +10,7 @@ export const EVENTS: Event[] = [
     description: 'Codigo is a competitive programming event involving the application of various data structures and algorithms.',
     date: 'March 21, 2026',
     time: '10:00 AM',
-    image: './assets/events/codigo.webp',
+    image: '/assets/events/codigo.webp',
     teamSize: 0
   },  
   {
@@ -20,7 +20,7 @@ export const EVENTS: Event[] = [
     description: 'With this event, we intend to give paricipants a kickstart in learning web',
     date: 'March 21, 2026',
     time: '2:00 PM',
-    image: './assets/events/hackoverflow.webp',
+    image: '/assets/events/hackoverflow.webp',
     teamSize: 4
   },
   {
@@ -30,7 +30,7 @@ export const EVENTS: Event[] = [
     description: 'Hands-on hardware implementation. It aims to introduce young minds to the world of electronic design, concepts and real world application.',
     date: 'March 21, 2026',
     time: '11:00 AM',
-    image: './assets/events/consilium.webp',
+    image: '/assets/events/consilium.webp',
     teamSize: 4
   },
   {
@@ -40,7 +40,7 @@ export const EVENTS: Event[] = [
     description: 'Forever united by our alma mater, bound by memories, and connected by purpose.',
     date: 'March 23, 2026',
     time: '9:00 AM',
-    image: './assets/events/saic.webp',
+    image: '/assets/events/saic.webp',
     teamSize: 0
   },
   {
@@ -50,7 +50,7 @@ export const EVENTS: Event[] = [
     description: 'Brushing up the Basics',
     date: 'TBD',
     time: 'TBD',
-    image: './assets/events/codigo-workshop.webp',
+    image: '/assets/events/codigo-workshop.webp',
     teamSize: 0
   },
 ];
@@ -60,31 +60,31 @@ export const TEAM_CORE: TeamMember[] = [
     id: '1',
     name: 'Abhay Srivastava',
     role: 'Consilium Head',
-    image: './assets/Team26/Abhay.jpeg'
+    image: '/assets/Team26/Abhay.jpeg'
   },
   {
     id: '2',
     name: 'Bhakti Naik',
     role: 'Social Media and Content Head',
-    image: './assets/Team26/Bhakti.jpg'
+    image: '/assets/Team26/Bhakti.jpg'
   },
   {
     id: '3',
     name: 'Devesh Kumar',
     role: 'Hackoverflow Head',
-    image: './assets/Team26/Devesh.jpeg'
+    image: '/assets/Team26/Devesh.jpeg'
   },
   {
     id: '4',
     name: 'Dhruv Gupta',
     role: 'Publicity Head',
-    image: './assets/Team26/Dhruv.jpg'
+    image: '/assets/Team26/Dhruv.jpg'
   },
   {
     id: '5',
     name: 'Madhur Gupta',
     role: 'PR Head',
-    image: './assets/Team26/Madhur.jpg'
+    image: '/assets/Team26/Madhur.jpg'
   }
 ];
 
@@ -93,31 +93,31 @@ export const TEAM_HEAD: TeamMember[] = [
     id: '1',
     name: 'Chhavi Jhari',
     role: 'Events and Ops Head',
-    image: './assets/Team26/chhavi.jpeg'
+    image: '/assets/Team26/chhavi.jpeg'
   },
   {
     id: '2',
     name: 'Akshat Srivastava',
     role: 'Events and Ops Head',
-    image: './assets/Team26/akshat.jpeg'
+    image: '/assets/Team26/akshat.jpeg'
   },
   {
     id: '3',
     name: 'Prakhar Singh',
     role: 'PR Head',
-    image: './assets/Team26/Prakhar.jpeg'
+    image: '/assets/Team26/Prakhar.jpeg'
   },
   {
     id: '4',
     name: 'Princy',
     role: 'Design Head',
-    image: './assets/Team26/Princy.jpg'
+    image: '/assets/Team26/Princy.jpg'
   },
   {
     id: '5',
     name: 'Sahil Parwal',
     role: 'Marketing Head',
-    image: './assets/Team26/Sahil.jpg'
+    image: '/assets/Team26/Sahil.jpg'
   }
 ];
 
@@ -125,26 +125,26 @@ export const TEAM_HEAD: TeamMember[] = [
 export const TEAM_VERTICAL: TeamMember[] = [
   {
     id: '1',
-    name: 'Akshit',
+    name: 'Akshit Goel',
     role: 'Hackoverflow Head',
-    image: './assets/Team26/akshit.jpg'
+    image: '/assets/Team26/akshit.jpg'
   },
   {
     id: '2',
-    name: 'Anannye',
+    name: 'Anannye Goyal',
     role: 'Consilium Head',
-    image: './assets/Team26/Anannye.jpg'
+    image: '/assets/Team26/Anannye.jpg'
   },
   {
     id: '3',
-    name: 'Divyanshu',
+    name: 'Divyanshu Dutta',
     role: 'Codigo Head',
-    image: './assets/Team26/Divyanshu.jpg'
+    image: '/assets/Team26/Divyanshu.jpg'
   },
   {
     id: '4',
     name: 'Manoj',
     role: 'Codigo Head',
-    image: './assets/Team26/Manoj.jpg'
+    image: '/assets/Team26/Manoj.jpg'
   }
 ];
