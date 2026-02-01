@@ -112,6 +112,12 @@ export const TEAM_HEAD: TeamMember[] = [
     name: 'Princy',
     role: 'Design Head',
     image: '/assets/Team26/Princy.jpg'
+  },
+  {
+    id: '5',
+    name: 'Sahil Parwal',
+    role: 'Marketing Head',
+    image: '/assets/Team26/Sahil.png'
   }
 ];
 
