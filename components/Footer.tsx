@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
               <span className="font-heading font-bold text-xl">PRASTUTI '26</span>
             </div>
             <p className="text-sm leading-relaxed max-w-sm">
-              The annual techno-management fest of Electrical Engineering Department, IIT (BHU), Varanasi. 
+              The annual fest of Electrical Engineering Department, IIT (BHU), Varanasi. 
               Igniting minds, illuminating futures.
             </p>
           </div>
@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 text-sm">
               <li><a href="#" className="hover:text-cyan-400 transition-colors">About Us</a></li>
               <li><a href="#" className="hover:text-cyan-400 transition-colors">Past Sponsors</a></li>
-              <li><a href="#" className="hover:text-cyan-400 transition-colors">Privacy Policy</a></li>
+              {/* <li><a href="#" className="hover:text-cyan-400 transition-colors">Privacy Policy</a></li> */}
             </ul>
           </div>
 
