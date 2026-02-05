@@ -1,5 +1,6 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, Youtube, Zap } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Youtube, Zap, Linkedin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export const Footer: React.FC = () => {
   return (
@@ -12,15 +13,15 @@ export const Footer: React.FC = () => {
               <span className="font-heading font-bold text-xl">PRASTUTI '26</span>
             </div>
             <p className="text-sm leading-relaxed max-w-sm">
-              The annual fest of Electrical Engineering Department, IIT (BHU), Varanasi. 
+              The annual fest of Electrical Engineering Department, IIT (BHU), Varanasi.
               Igniting minds, illuminating futures.
             </p>
           </div>
-          
+
           <div>
             <h4 className="text-white font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-cyan-400 transition-colors">About Us</a></li>
+              <li><Link to="/about" className="hover:text-cyan-400 transition-colors">About Us</Link></li>
               <li><a href="#" className="hover:text-cyan-400 transition-colors">Past Sponsors</a></li>
               {/* <li><a href="#" className="hover:text-cyan-400 transition-colors">Privacy Policy</a></li> */}
             </ul>
@@ -39,9 +40,14 @@ export const Footer: React.FC = () => {
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm">© 2026 Prastuti IIT BHU. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-cyan-400 transition-colors"><Twitter className="w-5 h-5" /></a>
-            <a href="#" className="hover:text-cyan-400 transition-colors"><Instagram className="w-5 h-5" /></a>
-            <a href="#" className="hover:text-cyan-400 transition-colors"><Youtube className="w-5 h-5" /></a>
+            <a href="https://www.instagram.com/prastuti.iitbhu/?hl=en" target="_blank"
+              rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors"><Instagram className="w-5 h-5" /></a>
+            <a href="https://twitter.com/prastuti_iitbhu" target="_blank"
+              rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors"><Twitter className="w-5 h-5" /></a>
+            <a href="https://www.youtube.com/@prastuti2023" target="_blank"
+              rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors"><Youtube className="w-5 h-5" /></a>
+            <a href="https://www.linkedin.com/company/prastuti" target="_blank"
+              rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors"><Linkedin className="w-5 h-5" /></a>
           </div>
         </div>
       </div>

@@ -8,7 +8,8 @@ import { OverallTeam } from './components/OverallTeam';
 import { Footer } from './components/Footer';
 import { Login } from './components/Auth';
 import { Registration } from './components/Registration';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
+import { About} from './components/About';
 
 interface User {
   name: string;
@@ -57,6 +58,7 @@ const App: React.FC = () => {
               <Route path="/team" element={<OverallTeam/>} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Registration />} />
+              <Route path="/about" element={<About />} />
             </Routes>
           </main>
           <Footer />
